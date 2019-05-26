@@ -1,0 +1,67 @@
+2019-05-08 23:32:58,933 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-08 23:33:03,802 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.primary.com.ar
+2019-05-08 23:33:05,102 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 401 951
+2019-05-08 23:33:05,122 - utils.PMY_REST - DEBUG - Request Error.
+2019-05-08 23:33:05,132 - utils.PMY_REST - DEBUG - <Response [401]>
+2019-05-08 23:33:05,152 - utils.webSocket - DEBUG - Logging to get the AUTH-TOKEN again
+2019-05-08 23:33:05,392 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 401 951
+2019-05-08 23:33:05,412 - utils.PMY_REST - DEBUG - Request Error.
+2019-05-08 23:33:05,412 - utils.PMY_REST - DEBUG - <Response [401]>
+2019-05-08 23:33:05,442 - utils.webSocket - ERROR - User not logged in
+2019-05-08 23:33:05,452 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-08 23:33:05,652 - utils.webSocket - ERROR - Websocket could not be oppened.
+2019-05-08 23:33:18,322 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-08 23:33:29,391 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.primary.com.ar
+2019-05-08 23:33:30,701 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-08 23:33:30,701 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-08 23:33:30,721 - utils.webSocket - DEBUG - Openning WS
+2019-05-08 23:33:31,231 - utils.webSocket - DEBUG - Waiting to establish the websocket connection
+2019-05-08 23:33:32,061 - utils.webSocket - DEBUG - WS is open!
+2019-05-08 23:33:32,231 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-08 23:33:32,231 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-08 23:33:32,231 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-08 23:33:32,251 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-08 23:33:32,251 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-08 23:33:32,271 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-08 23:33:32,271 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-08 23:33:32,301 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-08 23:34:38,708 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-08 23:34:38,708 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-08 23:34:38,718 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-08 23:36:14,332 - botMiron - DEBUG - Hello!, please don't kill me
+2019-05-08 23:36:18,032 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar
+2019-05-08 23:36:19,142 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-08 23:36:19,142 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-08 23:36:19,162 - utils.webSocket - DEBUG - Openning WS
+2019-05-08 23:36:19,662 - utils.webSocket - DEBUG - Waiting to establish the websocket connection
+2019-05-08 23:36:19,702 - utils.webSocket - DEBUG - WS is open!
+2019-05-08 23:36:20,672 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-08 23:36:20,672 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-08 23:36:20,672 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-08 23:36:20,692 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-08 23:36:20,692 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-08 23:36:20,712 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-08 23:36:20,722 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-08 23:36:20,742 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-08 23:36:28,342 - botMiron - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-08 23:36:28,342 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-08 23:36:28,372 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-08 23:37:00,810 - botMiron - DEBUG - Hello!, please don't kill me
+2019-05-08 23:37:02,240 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar
+2019-05-08 23:37:03,270 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-08 23:37:03,270 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-08 23:37:03,290 - utils.webSocket - DEBUG - Openning WS
+2019-05-08 23:37:03,790 - utils.webSocket - DEBUG - Waiting to establish the websocket connection
+2019-05-08 23:37:04,030 - utils.webSocket - DEBUG - WS is open!
+2019-05-08 23:37:04,800 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-08 23:37:04,800 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-08 23:37:04,800 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-08 23:37:04,819 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-08 23:37:04,819 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-08 23:37:04,840 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-08 23:37:04,849 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-08 23:37:04,869 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-08 23:37:23,489 - botMiron - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-08 23:37:23,489 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-08 23:37:23,489 - botFollowTheLeader - DEBUG - Hello!, please don't kill me
+2019-05-08 23:37:23,489 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event

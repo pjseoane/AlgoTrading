@@ -1,0 +1,361 @@
+2019-05-09 09:04:55,215 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-09 09:05:35,258 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.primary.com.ar:443
+2019-05-09 09:05:35,633 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-09 09:05:35,633 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-09 09:05:35,633 - utils.webSocket - DEBUG - Openning WS
+2019-05-09 09:05:35,680 - utils.webSocket - DEBUG - WS is open!
+2019-05-09 09:05:36,138 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-09 09:05:36,138 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-09 09:05:36,138 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-09 09:05:36,138 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-09 09:05:36,138 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-09 09:05:36,154 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-09 09:05:36,154 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-09 09:05:36,154 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-09 09:05:36,216 - utils.webSocket - DEBUG - An error message was received: {'status': 'ERROR', 'message': '{"type": "smd", "level": 1, "entries": ["LA", "BI", "OF", "SE", "OI", "TV", "IV"], "products": [{"symbol": "RFX20Jun19", "marketId": "ROFX"}]}', 'description': "Product RFX20Jun19:ROFX don't exist"}
+2019-05-09 09:05:36,310 - utils.webSocket - DEBUG - An error message was received: {'status': 'ERROR', 'message': '{"type": "smd", "level": 1, "entries": ["LA", "BI", "OF", "SE", "OI", "TV", "IV"], "products": [{"symbol": "RFX20Sep19", "marketId": "ROFX"}]}', 'description': "Product RFX20Sep19:ROFX don't exist"}
+2019-05-09 09:05:36,388 - utils.webSocket - DEBUG - An error message was received: {'status': 'ERROR', 'message': '{"type": "smd", "level": 1, "entries": ["LA", "BI", "OF", "SE", "OI", "TV", "IV"], "products": [{"symbol": "I.RFX20", "marketId": "ROFX"}]}', 'description': "Product I.RFX20:ROFX don't exist"}
+2019-05-09 09:05:36,466 - utils.webSocket - DEBUG - An error message was received: {'status': 'ERROR', 'message': '{"type": "smd", "level": 1, "entries": ["LA", "BI", "OF", "SE", "OI", "TV", "IV"], "products": [{"symbol": "RFXP 06/09 19", "marketId": "ROFX"}]}', 'description': "Product RFXP 06/09 19:ROFX don't exist"}
+2019-05-09 09:05:36,591 - utils.webSocket - DEBUG - An error message was received: {'status': 'ERROR', 'message': '{"type": "smd", "level": 1, "entries": ["LA", "BI", "OF", "SE", "OI", "TV", "IV"], "products": [{"symbol": "DOMay19", "marketId": "ROFX"}]}', 'description': "Product DOMay19:ROFX don't exist"}
+2019-05-09 09:05:36,794 - utils.webSocket - DEBUG - An error message was received: {'status': 'ERROR', 'message': '{"type": "smd", "level": 1, "entries": ["LA", "BI", "OF", "SE", "OI", "TV", "IV"], "products": [{"symbol": "DOJun19", "marketId": "ROFX"}]}', 'description': "Product DOJun19:ROFX don't exist"}
+2019-05-09 09:05:36,935 - utils.webSocket - DEBUG - An error message was received: {'status': 'ERROR', 'message': '{"type": "smd", "level": 1, "entries": ["LA", "BI", "OF", "SE", "OI", "TV", "IV"], "products": [{"symbol": "DOP 05/06 19", "marketId": "ROFX"}]}', 'description': "Product DOP 05/06 19:ROFX don't exist"}
+2019-05-09 09:06:14,603 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-09 09:06:14,603 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-09 09:06:14,603 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-09 09:47:34,836 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-09 09:48:02,504 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.primary.com.ar:443
+2019-05-09 09:48:03,160 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-09 09:48:03,160 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-09 09:48:03,160 - utils.webSocket - DEBUG - Openning WS
+2019-05-09 09:48:03,192 - utils.webSocket - DEBUG - WS is open!
+2019-05-09 09:48:03,676 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-09 09:48:03,676 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-09 09:48:03,676 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-09 09:48:03,676 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-09 09:48:03,676 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-09 09:48:03,676 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-09 09:48:03,692 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-09 09:48:03,692 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-09 10:05:04,148 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-09 10:05:05,882 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-09 10:05:06,301 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-09 10:05:06,301 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-09 10:05:06,301 - utils.webSocket - DEBUG - Openning WS
+2019-05-09 10:05:06,660 - utils.webSocket - DEBUG - WS is open!
+2019-05-09 10:05:06,817 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-09 10:05:06,817 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-09 10:05:06,817 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-09 10:05:06,817 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-09 10:05:06,817 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-09 10:05:06,817 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-09 10:05:06,817 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-09 10:05:06,817 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-09 10:05:46,683 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-09 10:05:47,761 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-09 10:05:48,152 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-09 10:05:48,152 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-09 10:05:48,152 - utils.webSocket - DEBUG - Openning WS
+2019-05-09 10:05:48,542 - utils.webSocket - DEBUG - WS is open!
+2019-05-09 10:05:48,667 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-09 10:05:50,199 - strategies.ArbitradorPase - DEBUG - Inicializando estrategia ArbitradorPase
+2019-05-09 10:08:34,560 - strategies.ArbitradorPase - DEBUG - Estrategia was stopped by user. I'll be close all my opened positions.
+2019-05-09 10:08:34,733 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-09 10:08:34,733 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-09 10:08:34,733 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-09 10:10:47,608 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-09 10:10:48,681 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-09 10:10:49,118 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-09 10:10:49,119 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-09 10:10:49,121 - utils.webSocket - DEBUG - Openning WS
+2019-05-09 10:10:49,464 - utils.webSocket - DEBUG - WS is open!
+2019-05-09 10:10:49,622 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-09 10:10:50,966 - strategies.ArbitradorPase - DEBUG - Inicializando estrategia ArbitradorPase
+2019-05-09 14:26:05,344 - utils.webSocket - ERROR - [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2019-05-09 14:26:05,453 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-09 14:26:05,485 - utils.webSocket - DEBUG - Logging to get the AUTH-TOKEN again
+2019-05-09 14:26:05,672 - urllib3.connectionpool - DEBUG - Resetting dropped connection: pbcp-remarket.cloud.primary.com.ar
+2019-05-09 14:26:05,781 - utils.PMY_REST - ERROR - Error in the logging process
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11002] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000172381E8DA0>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='pbcp-remarket.cloud.primary.com.ar', port=80): Max retries exceeded with url: /auth/getToken (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000172381E8DA0>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\PMY_REST.py", line 128, in login
+    loginResponse = s.post(url, headers=headers, verify=False)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='pbcp-remarket.cloud.primary.com.ar', port=80): Max retries exceeded with url: /auth/getToken (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000172381E8DA0>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed',))
+2019-05-09 14:26:06,563 - utils.webSocket - ERROR - User not logged in
+2019-05-09 14:26:06,579 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-09 14:26:52,292 - utils.webSocket - ERROR - [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2019-05-09 14:26:52,354 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-09 14:26:52,386 - utils.webSocket - DEBUG - Logging to get the AUTH-TOKEN again
+2019-05-09 14:26:52,526 - urllib3.connectionpool - DEBUG - Resetting dropped connection: pbcp-remarket.cloud.primary.com.ar
+2019-05-09 14:26:52,526 - strategies.ArbitradorPase - ERROR - Exception running the strategy! Sleeping for 5 seconds, if this error continue, please close the BOT..
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\strategies\EstrategiaBase.py", line 276, in run
+    if self.ws.sock.connected:
+AttributeError: 'NoneType' object has no attribute 'connected'
+2019-05-09 14:26:57,807 - strategies.ArbitradorPase - ERROR - Exception running the strategy! Sleeping for 5 seconds, if this error continue, please close the BOT..
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\strategies\EstrategiaBase.py", line 276, in run
+    if self.ws.sock.connected:
+AttributeError: 'NoneType' object has no attribute 'connected'
+2019-05-09 14:26:59,651 - utils.PMY_REST - ERROR - Error in the logging process
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11002] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002B9A5F7C908>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='pbcp-remarket.cloud.primary.com.ar', port=80): Max retries exceeded with url: /auth/getToken (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B9A5F7C908>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\PMY_REST.py", line 128, in login
+    loginResponse = s.post(url, headers=headers, verify=False)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='pbcp-remarket.cloud.primary.com.ar', port=80): Max retries exceeded with url: /auth/getToken (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B9A5F7C908>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed',))
+2019-05-09 14:27:00,464 - utils.webSocket - ERROR - User not logged in
+2019-05-09 14:27:00,495 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-09 14:27:02,880 - strategies.ArbitradorPase - DEBUG - Estrategia was stopped by user. I'll be close all my opened positions.
+2019-05-09 14:28:43,672 - utils.webSocket - ERROR - [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2019-05-09 14:28:43,829 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-09 14:28:43,857 - utils.webSocket - DEBUG - Logging to get the AUTH-TOKEN again
+2019-05-09 14:28:44,026 - urllib3.connectionpool - DEBUG - Resetting dropped connection: api.primary.com.ar
+2019-05-09 14:28:44,141 - utils.PMY_REST - ERROR - Error in the logging process
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11002] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x00000134535AAD30>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.primary.com.ar', port=443): Max retries exceeded with url: /auth/getToken (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000134535AAD30>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\PMY_REST.py", line 128, in login
+    loginResponse = s.post(url, headers=headers, verify=False)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.primary.com.ar', port=443): Max retries exceeded with url: /auth/getToken (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000134535AAD30>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed',))
+2019-05-09 14:28:45,217 - utils.webSocket - ERROR - User not logged in
+2019-05-09 14:28:45,264 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-09 16:01:19,700 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-09 16:01:39,246 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-09 16:01:47,707 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-09 16:01:47,957 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-09 16:01:51,320 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-09 16:01:55,612 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.primary.com.ar:443
+2019-05-09 16:01:55,996 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-09 16:01:55,998 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-09 16:01:56,003 - utils.webSocket - DEBUG - Openning WS
+2019-05-09 16:01:56,034 - utils.webSocket - DEBUG - WS is open!
+2019-05-09 16:01:56,504 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-09 16:01:56,504 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-09 16:01:56,506 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-09 16:01:56,507 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-09 16:01:56,507 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-09 16:01:56,508 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-09 16:01:56,508 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-09 16:01:56,509 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-09 16:02:04,512 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-09 16:02:05,885 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-09 16:02:06,394 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-09 16:02:06,395 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-09 16:02:06,397 - utils.webSocket - DEBUG - Openning WS
+2019-05-09 16:02:06,727 - utils.webSocket - DEBUG - WS is open!
+2019-05-09 16:02:06,907 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-09 16:02:08,021 - strategies.ArbitradorPase - DEBUG - Inicializando estrategia ArbitradorPase
+2019-05-09 17:04:01,411 - strategies.ArbitradorPase - DEBUG - Estrategia was stopped by user. I'll be close all my opened positions.
+2019-05-09 17:04:01,598 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-09 17:04:01,598 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-09 17:04:01,598 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-09 17:51:12,827 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 41867.25, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 17, 51, 13, 679000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:09:12,000 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 41867.25, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 9, 12, 892000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:10:10,481 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 41867.25, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 10, 11, 416000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:26:13,756 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 41871.37, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 26, 14, 698000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:26:17,505 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 41905.02, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 26, 18, 413000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:26:17,646 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 42016.21, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 26, 18, 513000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:26:17,849 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 42017.22, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 26, 18, 697000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:26:18,209 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 42040.94, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 26, 19, 196000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:26:18,772 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 42049.28, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 26, 19, 698000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:26:19,258 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 42051.53, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 26, 20, 197000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-09 18:26:19,773 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'IV': 42066.26, 'TV': 0, 'date': datetime.datetime(2019, 5, 9, 18, 26, 20, 698000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-10 08:55:40,098 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-10 08:55:40,129 - utils.webSocket - DEBUG - Logging to get the AUTH-TOKEN again
+2019-05-10 08:55:40,379 - urllib3.connectionpool - DEBUG - Resetting dropped connection: api.primary.com.ar
+2019-05-10 08:55:40,801 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 502 166
+2019-05-10 08:55:40,864 - utils.PMY_REST - DEBUG - Request Error.
+2019-05-10 08:55:40,895 - utils.PMY_REST - DEBUG - <Response [502]>
+2019-05-10 08:55:40,926 - utils.webSocket - ERROR - User not logged in
+2019-05-10 08:55:40,973 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-10 10:21:26,486 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby

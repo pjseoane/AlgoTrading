@@ -1,0 +1,177 @@
+2019-05-10 10:21:04,220 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-10 10:21:06,391 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-10 10:21:06,813 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-10 10:21:06,813 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-10 10:21:06,829 - utils.webSocket - DEBUG - Openning WS
+2019-05-10 10:21:07,173 - utils.webSocket - DEBUG - WS is open!
+2019-05-10 10:21:07,329 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-10 10:21:07,329 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-10 10:21:07,329 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-10 10:21:07,329 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-10 10:21:07,329 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-10 10:21:07,329 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-10 10:21:07,329 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-10 10:21:07,329 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-10 10:21:10,909 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-10 10:21:12,250 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-10 10:21:12,749 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-10 10:21:12,749 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-10 10:21:12,781 - utils.webSocket - DEBUG - Openning WS
+2019-05-10 10:21:13,287 - utils.webSocket - DEBUG - Waiting to establish the websocket connection
+2019-05-10 10:21:14,158 - utils.webSocket - DEBUG - WS is open!
+2019-05-10 10:21:14,299 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-10 10:21:15,408 - strategies.ArbitradorPase - DEBUG - Inicializando estrategia ArbitradorPase
+2019-05-10 10:21:30,095 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-10 10:21:40,707 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.primary.com.ar:443
+2019-05-10 10:21:41,463 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-10 10:21:41,464 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-10 10:21:41,476 - utils.webSocket - DEBUG - Openning WS
+2019-05-10 10:21:41,520 - utils.webSocket - DEBUG - WS is open!
+2019-05-10 10:21:41,977 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-10 10:21:41,977 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-10 10:21:41,979 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-10 10:21:41,979 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-10 10:21:41,985 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-10 10:21:41,988 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-10 10:21:41,990 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-10 10:21:41,992 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-10 10:21:42,344 - utils.DBtools - ERROR - Missing the value due to error in sql_append: Table:IRFX20; data:{'SE_price': 41867.25, 'SE_date': datetime.datetime(2019, 5, 8, 21, 0), 'TV': 0, 'date': datetime.datetime(2019, 5, 10, 10, 21, 43, 830000)}
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 171, in sql_append
+    cur.execute(query, data)
+sqlite3.OperationalError: table IRFX20 has no column named SE_date
+2019-05-10 10:22:42,206 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-10 10:22:42,206 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-10 10:22:42,222 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-10 10:23:14,049 - strategies.ArbitradorPase - ERROR - Exception running the strategy! Sleeping for 5 seconds, if this error continue, please close the BOT..
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\strategies\EstrategiaBase.py", line 278, in run
+    self.update_current_prices()
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\strategies\ArbitradorPase.py", line 142, in update_current_prices
+    pase_data = utils.DBtools.read_last_row(self.pase_ticker)
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\DBtools.py", line 137, in read_last_row
+    row = c.execute(query).fetchone()
+sqlite3.OperationalError: database is locked
+2019-05-10 10:23:50,152 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-10 10:24:01,707 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.primary.com.ar:443
+2019-05-10 10:24:02,313 - urllib3.connectionpool - DEBUG - https://api.primary.com.ar:443 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-10 10:24:02,313 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-10 10:24:02,344 - utils.webSocket - DEBUG - Openning WS
+2019-05-10 10:24:02,422 - utils.webSocket - DEBUG - WS is open!
+2019-05-10 10:24:02,860 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-10 10:24:02,860 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-10 10:24:02,875 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-10 10:24:02,891 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-10 10:24:02,891 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-10 10:24:02,891 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-10 10:24:02,891 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-10 10:24:02,891 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-10 10:27:23,895 - strategies.ArbitradorPase - DEBUG - Estrategia was stopped by user. I'll be close all my opened positions.
+2019-05-10 10:27:24,066 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-10 10:27:24,066 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-10 10:27:24,067 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-10 10:27:30,696 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-10 10:27:31,466 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-10 10:27:31,930 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-10 10:27:31,931 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-10 10:27:31,950 - utils.webSocket - DEBUG - Openning WS
+2019-05-10 10:27:32,302 - utils.webSocket - DEBUG - WS is open!
+2019-05-10 10:27:32,451 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-10 10:27:33,426 - strategies.ArbitradorPase - DEBUG - Inicializando estrategia ArbitradorPase
+2019-05-10 10:28:19,644 - strategies.ArbitradorPase - DEBUG - Estrategia was stopped by user. I'll be close all my opened positions.
+2019-05-10 10:28:19,818 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-10 10:28:19,819 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-10 10:28:19,819 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-10 10:28:20,350 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-10 10:28:20,351 - __main__ - DEBUG - You've killed me. I'll revenge. Hasta la vista, baby
+2019-05-10 10:28:20,351 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-10 10:33:56,342 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-10 10:33:57,608 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-10 10:33:58,026 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-10 10:33:58,027 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-10 10:33:58,031 - utils.webSocket - DEBUG - Openning WS
+2019-05-10 10:33:58,546 - utils.webSocket - DEBUG - Waiting to establish the websocket connection
+2019-05-10 10:33:59,390 - utils.webSocket - DEBUG - WS is open!
+2019-05-10 10:33:59,546 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-10 10:33:59,546 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Jun19 enviado
+2019-05-10 10:33:59,546 - utils.webSocket - INFO - Mensaje de subscripcion a RFX20Sep19 enviado
+2019-05-10 10:33:59,546 - utils.webSocket - INFO - Mensaje de subscripcion a I.RFX20 enviado
+2019-05-10 10:33:59,546 - utils.webSocket - INFO - Mensaje de subscripcion a RFXP 06/09 19 enviado
+2019-05-10 10:33:59,546 - utils.webSocket - INFO - Mensaje de subscripcion a DOMay19 enviado
+2019-05-10 10:33:59,546 - utils.webSocket - INFO - Mensaje de subscripcion a DOJun19 enviado
+2019-05-10 10:33:59,546 - utils.webSocket - INFO - Mensaje de subscripcion a DOP 05/06 19 enviado
+2019-05-10 10:34:01,829 - __main__ - DEBUG - Hello!, please don't kill me
+2019-05-10 10:34:02,718 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): pbcp-remarket.cloud.primary.com.ar:80
+2019-05-10 10:34:03,078 - urllib3.connectionpool - DEBUG - http://pbcp-remarket.cloud.primary.com.ar:80 "POST /auth/getToken HTTP/1.1" 200 0
+2019-05-10 10:34:03,078 - utils.PMY_REST - DEBUG - Logging success. X-Auth-Token obtained correctly
+2019-05-10 10:34:03,078 - utils.webSocket - DEBUG - Openning WS
+2019-05-10 10:34:03,421 - utils.webSocket - DEBUG - WS is open!
+2019-05-10 10:34:03,593 - utils.webSocket - INFO - Mensaje de subscripcion al OR enviado.
+2019-05-10 10:34:04,717 - strategies.ArbitradorPase - DEBUG - Inicializando estrategia ArbitradorPase
+2019-05-10 15:44:04,845 - utils.webSocket - ERROR - [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+2019-05-10 15:44:04,954 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-10 15:44:05,001 - utils.webSocket - DEBUG - Logging to get the AUTH-TOKEN again
+2019-05-10 15:44:05,175 - urllib3.connectionpool - DEBUG - Resetting dropped connection: api.primary.com.ar
+2019-05-10 15:44:26,456 - utils.PMY_REST - ERROR - Error in the logging process
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x000001CAD89E9D30>: Failed to establish a new connection: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.primary.com.ar', port=443): Max retries exceeded with url: /auth/getToken (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001CAD89E9D30>: Failed to establish a new connection: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\utils\PMY_REST.py", line 128, in login
+    loginResponse = s.post(url, headers=headers, verify=False)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\salgo\AppData\Local\Programs\Python\Python36\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.primary.com.ar', port=443): Max retries exceeded with url: /auth/getToken (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001CAD89E9D30>: Failed to establish a new connection: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder',))
+2019-05-10 15:44:27,158 - utils.webSocket - ERROR - User not logged in
+2019-05-10 15:44:27,173 - utils.webSocket - DEBUG - Websocket clossed due to Stopping Event
+2019-05-10 16:37:36,018 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-10 16:37:36,039 - utils.webSocket - DEBUG - Logging to get the AUTH-TOKEN again
+2019-05-10 16:37:36,067 - utils.webSocket - DEBUG - WS cerrado.
+2019-05-10 16:37:36,098 - utils.webSocket - DEBUG - Logging to get the AUTH-TOKEN again
+2019-05-10 16:37:36,129 - urllib3.connectionpool - DEBUG - Resetting dropped connection: pbcp-remarket.cloud.primary.com.ar
+2019-05-10 16:37:36,223 - urllib3.connectionpool - DEBUG - Resetting dropped connection: pbcp-remarket.cloud.primary.com.ar
+2019-05-10 16:37:36,129 - strategies.ArbitradorPase - ERROR - Exception running the strategy! Sleeping for 5 seconds, if this error continue, please close the BOT..
+Traceback (most recent call last):
+  File "C:\Users\salgo\Nextcloud\Python\AlgoTrading\strategies\EstrategiaBase.py", line 276, in run
+    if self.ws.sock.connected:
+AttributeError: 'NoneType' object has no attribute 'connected'

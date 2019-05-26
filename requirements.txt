@@ -1,0 +1,6 @@
+pandas
+numpy
+websocket-client
+getpass
+simplejson
+threading
