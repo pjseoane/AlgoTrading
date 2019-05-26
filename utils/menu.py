@@ -91,15 +91,13 @@ def ask_login_credentials():
     
     if entorno == 0:
         user = input("Ingrese su usuario: ")
-        password = getpass.getpass('Password:')
+        password = input('Password:')
         account = user
         db = 'rofex.db'
     elif entorno == 1:
-        # user = input("Ingrese su usuario: ")
-        # password = getpass.getpass('Password:')
-        user = "salgozino898"
-        password = "oeofsZ2*"
-        account = "REM898"
+        user = input("Ingrese su usuario: ")
+        password = input('Password:')
+        user = input("Ingrese su cuenta: ")
         db = 'remarkets.db'
 
     return user, password, account, entorno,db

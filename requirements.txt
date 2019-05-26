@@ -2,5 +2,4 @@ pandas
 numpy
 websocket-client
 simplejson
-threading
 getpass
